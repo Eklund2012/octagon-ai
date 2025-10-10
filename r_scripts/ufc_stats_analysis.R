@@ -14,12 +14,16 @@ library(ggplot2)
 # Load the dataset
 data("ufc_stats")
 
-# Summarise top fighters by total significant strikes
-#ufc_stats %>%
-  #group_by(fighter) %>%
-  #summarise(total_significant_strikes = sum(significant_strikes_landed, na.rm = TRUE)) %>%
-  #arrange(-total_significant_strikes) %>%
-  #head()
+dataset_information <- function() {
+  cat("Dataset Information:\n")
+  cat("Number of rows:", nrow(ufc_stats), "\n")
+  cat("Number of columns:", ncol(ufc_stats), "\n")
+  print(colnames(ufc_stats))
+  print(str(ufc_stats))
+  #print(summary(ufc_stats))
+}
+
+dataset_information()
 
 top_fighters <- function(stat = "significant_strikes_landed", n = 10) {
   ufc_stats %>%
