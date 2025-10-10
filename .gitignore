@@ -1,0 +1,46 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -----------------------
+# R
+# -----------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+
+# -----------------------
+# Jupyter
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Data & outputs
+# -----------------------
+outputs/
+data/ufc_stats_clean.csv
+data/raw/
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+
+# -----------------------
+# Logs / temp files
+# -----------------------
+*.log
+*.tmp
