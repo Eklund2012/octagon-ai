@@ -18,3 +18,5 @@ Octagon AI is a hybrid R and Python project for analyzing UFC fight statistics a
 
 ## Installation
 tbd
+
+## Contact
