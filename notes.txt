@@ -1,0 +1,16 @@
+Next Step
+You are done with the "Building" phase. You are now in the "Usage" phase.
+
+Your Weekly Routine:
+
+Download the latest ufc_stats.csv (or update it).
+
+Run the script.
+
+Input the matchups for Saturday night.
+
+Compare your "Fair Odds" to the "Bookie Odds".
+
+If the model spots a discrepancy (like it did with Jones/Aspinall), you have a potential bet.
+
+Would you like a separate, small script that just LOADS the saved model and asks for names (so you don't have to re-train every time)?
